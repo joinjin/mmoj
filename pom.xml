@@ -233,7 +233,16 @@
       <artifactId>jedis</artifactId>
       <version>2.9.0</version>
     </dependency>
-    
+      <dependency>
+          <groupId>org.codehaus.jackson</groupId>
+          <artifactId>jackson-mapper-asl</artifactId>
+          <version>1.9.13</version>
+      </dependency>
+    <dependency>
+      <groupId>org.restlet.jse</groupId>
+      <artifactId>org.restlet.ext.jetty</artifactId>
+      <version>2.1.2</version>
+    </dependency>
   </dependencies>
   
   <build>
